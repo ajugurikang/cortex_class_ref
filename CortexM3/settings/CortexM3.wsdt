@@ -33,10 +33,19 @@
             <Session>
               <NodeDict>
                 <ExpandedNode>CortexM3</ExpandedNode>
-                <ExpandedNode>CortexM3/CMSIS</ExpandedNode>
-                <ExpandedNode>CortexM3/CMSIS/Startup</ExpandedNode>
-                <ExpandedNode>CortexM3/Library</ExpandedNode>
-                <ExpandedNode>CortexM3/Library/Std_Driver</ExpandedNode>
+                <ExpandedNode>CortexM3/Driver</ExpandedNode>
+                <ExpandedNode>CortexM3/Driver/ExtIF</ExpandedNode>
+                <ExpandedNode>CortexM3/Driver/FND</ExpandedNode>
+                <ExpandedNode>CortexM3/Driver/I2C_SW</ExpandedNode>
+                <ExpandedNode>CortexM3/Driver/Key</ExpandedNode>
+                <ExpandedNode>CortexM3/Driver/LCD</ExpandedNode>
+                <ExpandedNode>CortexM3/Driver/LED</ExpandedNode>
+                <ExpandedNode>CortexM3/Driver/SDCard</ExpandedNode>
+                <ExpandedNode>CortexM3/Driver/Sensor</ExpandedNode>
+                <ExpandedNode>CortexM3/Driver/Serial</ExpandedNode>
+                <ExpandedNode>CortexM3/Driver/System</ExpandedNode>
+                <ExpandedNode>CortexM3/Driver/Timer</ExpandedNode>
+                <ExpandedNode>CortexM3/Driver/Touch</ExpandedNode>
               </NodeDict>
             </Session>
           </Tab>
@@ -82,10 +91,18 @@
           <Filename>$WS_DIR$\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h</Filename>
           <XPos>0</XPos>
           <YPos>8302</YPos>
-          <SelStart>625883</SelStart>
-          <SelEnd>625883</SelEnd>
+          <SelStart>625211</SelStart>
+          <SelEnd>625211</SelEnd>
         </Tab>
-        <ActiveTab>3</ActiveTab>
+        <Tab>
+          <Factory>TextEditor</Factory>
+          <Filename>$WS_DIR$\driver\led\led.c</Filename>
+          <XPos>0</XPos>
+          <YPos>84</YPos>
+          <SelStart>3102</SelStart>
+          <SelEnd>3102</SelEnd>
+        </Tab>
+        <ActiveTab>4</ActiveTab>
       </Pane>
       <ActivePane>0</ActivePane>
       <Sizes>
