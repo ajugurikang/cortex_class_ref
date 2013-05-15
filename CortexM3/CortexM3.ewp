@@ -296,6 +296,7 @@
           <state>$PROJ_DIR$\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x</state>
           <state>$PROJ_DIR$\Libraries\STM32F10x_StdPeriph_Driver\inc</state>
           <state>$PROJ_DIR$\driver\include</state>
+          <state>$PROJ_DIR$\fs\include</state>
         </option>
         <option>
           <name>CCStdIncCheck</name>
@@ -1870,6 +1871,12 @@
       </file>
     </group>
     <group>
+      <name>RTC</name>
+      <file>
+        <name>$PROJ_DIR$\driver\rtc\rtc.c</name>
+      </file>
+    </group>
+    <group>
       <name>SDCard</name>
       <file>
         <name>$PROJ_DIR$\driver\sdcard\sdcard.c</name>
@@ -1903,6 +1910,18 @@
       <name>Touch</name>
       <file>
         <name>$PROJ_DIR$\driver\touch\touch.c</name>
+      </file>
+    </group>
+  </group>
+  <group>
+    <name>FileSystem</name>
+    <group>
+      <name>FAT</name>
+      <file>
+        <name>$PROJ_DIR$\fs\fat\diskio.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\fs\fat\ff.c</name>
       </file>
     </group>
   </group>

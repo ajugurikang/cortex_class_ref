@@ -1,0 +1,5 @@
+---- SD_EnableWideBusOperation Matches (4 in 3 files) ----
+Main.c:		//Status = SD_EnableWideBusOperation(SDIO_BusWide_4b);
+Sdcard.c (driver\sdcard):* Function Name  : SD_EnableWideBusOperation
+Sdcard.c (driver\sdcard):SD_Error SD_EnableWideBusOperation(u32 WideMode)
+Sdcard.h (driver\include):SD_Error SD_EnableWideBusOperation(u32 WideMode);
